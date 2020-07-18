@@ -1,0 +1,9 @@
+@tailwind base;
+
+@tailwind components;
+
+.btn {
+    @apply scb-bg-gray-100;
+}
+
+@tailwind utilities;

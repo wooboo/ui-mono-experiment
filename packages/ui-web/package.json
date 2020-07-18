@@ -1,0 +1,26 @@
+{
+  "name": "ui-web",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "WooBoo <piotr.zabowka@santanderconsumer.dk>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/ui-web.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "postcss -o out/main.css css/*.css"
+  },
+  "dependencies": {
+    "tailwindcss": "1.5.1",
+    "postcss-cli": "7.1.1",
+    "postcss": "7.0.32",
+    "autoprefixer": "9.8.5",
+    "ui-utils": "1.0.0"
+  }
+}
