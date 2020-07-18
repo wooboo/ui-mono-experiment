@@ -1,0 +1,19 @@
+{
+  "name": "react-flows",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "WooBoo <piotr.zabowka@santanderconsumer.dk>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/react-flows.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}

@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+
+.buttonOne {
+  @apply scb-btn scb-btn-blue;
+}
+.buttonTwo {
+  @apply scb-btn scb-btn-blue;
+}
