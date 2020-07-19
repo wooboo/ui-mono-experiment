@@ -1,0 +1,6 @@
+.btn-gray {
+    @apply scb-bg-green-700;
+}
+.btn-gray:hover {
+    @apply scb-bg-green-300;
+}

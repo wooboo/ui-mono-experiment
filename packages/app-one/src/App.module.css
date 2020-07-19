@@ -1,9 +1,11 @@
-@tailwind base;
-@tailwind components;
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+@import "ui-utils/components.css";
 
 .buttonOne {
   @apply scb-btn scb-btn-blue;
 }
 .buttonTwo {
-  @apply scb-btn scb-btn-blue;
+  @apply scb-btn btn-gray;
 }
